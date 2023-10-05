@@ -1,0 +1,22 @@
+{
+  "mc.1": {
+    "sounds": [
+      "letsdoajumpscare:mc_1"
+    ]
+  },
+  "cc.1": {
+    "sounds": [
+      "letsdoajumpscare:cc_1"
+    ]
+  },
+  "cc.2": {
+    "sounds": [
+      "letsdoajumpscare:cc_2"
+    ]
+  },
+  "cc.3": {
+    "sounds": [
+      "letsdoajumpscare:cc_3"
+    ]
+  }
+}
