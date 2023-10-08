@@ -1,0 +1,9 @@
+{
+  "text.config.jconfiguration.title": "Configuration of Let's do a jumpscare",
+  "text.config.jconfiguration.option.alwaysActive": "Always Active",
+  "text.config.jconfiguration.option.michelleDenkerMode": "Michelle Denker Mode",
+  "text.config.jconfiguration.section.General": "General",
+  "text.config.jconfiguration.section.Dev": "Dev",
+  "text.config.jconfiguration.option.shouldCCValue": "Should CC Value",
+  "text.config.jconfiguration.option.texture_chance": "Texture Chance"
+}

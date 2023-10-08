@@ -18,5 +18,15 @@
     "sounds": [
       "letsdoajumpscare:cc_3"
     ]
+  },
+  "cc.4": {
+    "sounds": [
+      "letsdoajumpscare:cc_4"
+    ]
+  },
+  "cc.5": {
+    "sounds": [
+      "letsdoajumpscare:cc_5"
+    ]
   }
 }

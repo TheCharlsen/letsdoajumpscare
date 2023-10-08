@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "letsdoajumpscare",
 	"version": "${version}",
-	"name": "Lets do a jumpscare",
-	"description": "Scares everything out of you. The darkness lingers in the inventory!",
+	"name": "Let's do a jumpscare",
+	"description": "Scares the hell out of you. The darkness lingers in the inventory!",
 	"authors": [
 		"Charlsen"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/letsdoajumpscare",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TheCharlsen/letsdoajumpscare"
 	},
 	"license": "AGPL-3.0",
 	"icon": "assets/letsdoajumpscare/icon.png",
