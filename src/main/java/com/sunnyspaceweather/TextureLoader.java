@@ -22,7 +22,6 @@ public class TextureLoader {
     static int mood;
     static boolean isActive = false;
     public static Identifier TEXTURE;
-
     static int activationChance;
 
     public static void tick() {
@@ -37,14 +36,14 @@ public class TextureLoader {
     static int texture_chance;
 
     public static void init() {
-        if (JumpyMod.CONFIG.michelleDenkerMode()) {
-            texture_chance = 2;
-        }
-        else if (JumpyMod.CONFIG.shouldCCValue() == true) {
+        if (JumpyMod.CONFIG.shouldCCValue() == true) {
             texture_chance = JumpyMod.CONFIG.texture_chance();
         }
+        else if (JumpyMod.CONFIG.michelleDenkerMode()) {
+            texture_chance = 10;
+        }
         else {
-            texture_chance = random.nextInt(6);
+            texture_chance = random.nextInt(5);
         }
 
         mood = Math.round(client.player.getMoodPercentage() * 100F);
@@ -156,22 +155,22 @@ public class TextureLoader {
                 durationOfRender = 41;
                 SOUND_INSTANCE = PositionedSoundInstance.master(JSoundEvents.CC_2, 1.0F, 3.0F);
             }
-            else if(texture_chance == 2) {
+            else if(texture_chance == 10) {
                 //cc1michelledenker
                 durationOfRender = 660;
                 SOUND_INSTANCE = PositionedSoundInstance.master(JSoundEvents.CC_1, 1.0F, 2.0F);
             }
-            else if(texture_chance == 3) {
+            else if(texture_chance == 2) {
                 //cc3
                 durationOfRender = 17;
                 SOUND_INSTANCE = PositionedSoundInstance.master(JSoundEvents.CC_3, 1.0F, 3.0F);
             }
-            else if(texture_chance == 4) {
+            else if(texture_chance == 3) {
                 //cc4
                 durationOfRender = 41;
                 SOUND_INSTANCE = PositionedSoundInstance.master(JSoundEvents.CC_4, 1.0F, 3.0F);
             }
-            else if(texture_chance == 5) {
+            else if(texture_chance == 4) {
                 //cc4
                 durationOfRender = 160;
                 SOUND_INSTANCE = PositionedSoundInstance.master(JSoundEvents.CC_5, 1.0F, 3.0F);
@@ -200,19 +199,19 @@ public class TextureLoader {
             //cc2
             TEXTURE = new Identifier(JumpyMod.MODID, "textures/jumpscares/cc_2/frame_" + timing + ".png");
         }
-        else if(texture_chance == 2) {
+        else if(texture_chance == 10) {
             //cc1
             TEXTURE = new Identifier(JumpyMod.MODID, "textures/jumpscares/cc_1.png");
         }
-        else if(texture_chance == 3) {
+        else if(texture_chance == 2) {
             //cc3
             TEXTURE = new Identifier(JumpyMod.MODID, "textures/jumpscares/cc_3/frame_" + timing + ".png");
         }
-        else if(texture_chance == 4) {
+        else if(texture_chance == 3) {
             //cc4
             TEXTURE = new Identifier(JumpyMod.MODID, "textures/jumpscares/cc_4/frame_" + timing + ".png");
         }
-        else if(texture_chance == 5) {
+        else if(texture_chance == 4) {
             //cc4
             TEXTURE = new Identifier(JumpyMod.MODID, "textures/jumpscares/cc_5/frame_" + timing + ".png");
         }
