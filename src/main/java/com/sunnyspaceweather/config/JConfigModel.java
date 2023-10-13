@@ -1,6 +1,5 @@
 package com.sunnyspaceweather.config;
 
-import com.sunnyspaceweather.JumpyMod;
 import io.wispforest.owo.config.annotation.Config;
 import io.wispforest.owo.config.annotation.Modmenu;
 import io.wispforest.owo.config.annotation.SectionHeader;

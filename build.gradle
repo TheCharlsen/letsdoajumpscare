@@ -61,7 +61,7 @@ dependencies {
 
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 
-	modApi "com.terraformersmc:modmenu:7.2.2"
+	modApi "com.terraformersmc:modmenu:8.0.0"
 }
 
 processResources {
